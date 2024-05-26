@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: black;
+  background-color: rgb(199, 199, 199);
+  user-select: none;
+}
+
+/* fuente */
+
+h1 {
+  font-family: "Copperplate Gothic Light";
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+}
+h3, h2 {
+  font-family: "Copperplate Gothic Light";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+}
+p {
+  font-family: "Copperplate Gothic Light";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+}
+blockquote {
+  font-family: "Copperplate Gothic Light";
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+}
+pre {
+  font-family: "Copperplate Gothic Light";
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+}
+
+/* nav */
+
+.navbar {
+  padding: 10px 15px;
+}
+
+.navbar h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: white;
+  user-select: none;
+}
+
+.navbar a.nav-link {
+  color: white;
+}
+
+.navbar a {
+  font-size: 1.7rem;
+  color: white;
+  user-select: none;
+  transition: 400ms;
+}
+
+.navbar a:hover {
+  color: #838383;
+}
+
+.navbar .dropdown-menu a{ 
+  color: black;
+} 
+.navbar .dropdown-menu a:hover{
+  color: #838383;
+} 
+
+a.nav-link.dropdown-toggle.show {
+  color: #838383;
+}
+
+.bg-body-tertiary {
+  background-color: #030303 !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  transition: 400ms;
+  user-select: none;
+}
+
+.navbar-toggler {
+  border: 2px solid rgb(255, 255, 255);
+  transition: 400ms;
+}
+
+.navbar-toggler:hover {
+  border: 2px solid #838383;
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(113, 113, 113)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+}
+
+/* header */
+
+header {
+  background-color: #030303;
+  margin-bottom: 1rem;
+}
+
+header img {
+  width: 100%;
+}
+
+/* contenido */
+
+.row .col {
+  height: 350px;
+  margin: 1rem 1rem;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: #030303;
+  height: auto;
+  box-shadow: 4px 4px 20px black;
+}
+
+#Nosotros .col{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+#Nosotros p {
+  margin: 0;
+  padding: 2rem;
+  background-color: black;
+}
+
+.row .col h3,
+.row .col h2{
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.row .col p {
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+.cards .col a.btn,
+a#historia.btn {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  width: 70px;
+  transition: 400ms;
+}
+
+.cards .col a.btn:hover,
+a#historia.btn:hover {
+  background-color: #030303;
+  border: 1px solid white;
+  color: white;
+  transform: scale(1.1);
+}
+
+#armatupc {
+  max-width: 400px;
+}
+
+#armatupc a.btn{
+  padding: 0;
+  margin: 1rem auto;
+  display: flex;
+  width: 60px;
+  font-size: 3rem;
+  color: white;
+  border: none;
+  box-sizing: none; 
+}
+
+#armatupc a i.bi {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#armatupc a.btn:hover {
+  border: none;
+  transform: scale(1.1);
+}
+
+
+/* footer */
+
+footer {
+  width: 100%;
+  min-height: 140px;
+  background-color: #030303;
+  margin: 0;
+}
+
+footer span {
+  color: white;
+  font-size: 1.5rem;
+  user-select: none;
+}
+
+footer i {
+  font-size: 2rem;
+  color: white;
+  padding: 0.5rem;
+  transition: 400ms;
+}
+
+footer i:hover {
+  color: #717171;
+}
+
+footer ul {
+  padding-right: 3rem;
+}
